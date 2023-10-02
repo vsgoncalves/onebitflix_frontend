@@ -1,6 +1,4 @@
 import {  Button, Container } from 'reactstrap';
-
-
 import styles from './styles.module.scss';
 
 const HeaderNoAuth = function () {
