@@ -22,7 +22,7 @@ const SlideComponent = function ({ course }: props) {
             pagination: false,
           }}
         >
-          {course?.map((course) => (
+           {course?.map((course) => (
             <SplideSlide key={course.id}>
               <SlideCard course={course} />
             </SplideSlide>

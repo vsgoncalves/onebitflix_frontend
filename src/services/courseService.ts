@@ -24,8 +24,9 @@ const courseService = {
   
         return error.response;
       });
-  
+      console.log(res);
       return res;
+      
     },
   };
   
