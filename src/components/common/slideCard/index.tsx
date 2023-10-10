@@ -1,6 +1,7 @@
 import styles from "./styles.module.scss";
+
 import { CourseType } from "../../../services/courseService";
-import { SplideSlide, Splide } from '../../../../node_modules/@splidejs/react-splide';
+import { SplideSlide, Splide } from '../../../../node_modules/@splidejs/react-splide/dist/types';
 import Link from "next/link";
 
 interface props {
