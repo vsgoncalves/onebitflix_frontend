@@ -2,11 +2,12 @@
 
 
 import "@splidejs/splide/dist/css/splide.min.css";
+import "../../../../node_modules/@splidejs/splide/dist/css/splide.min.css";
 import { CourseType } from "../../../services/courseService";
 import SlideCard from "../slideCard";
 
 
-import { SplideSlide, Splide } from '../../../../node_modules/@splidejs/react-splide';
+import { SplideSlide, Splide, } from '../../../../node_modules/@splidejs/react-splide';
 //import { Splide, SplideSlide } from "@splidejs/react-splide";
 
 
@@ -24,6 +25,7 @@ const SlideComponent = function ({ course }: props) {
 
     return( 
         <>
+        
         <div className="d-flex flex-column align-items-center py-4">
         <Splide
           options={{

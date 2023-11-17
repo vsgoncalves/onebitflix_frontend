@@ -17,7 +17,12 @@ const Login = function () {
     const [toastIsOpen, setToastIsOpen] = useState(false);
     const [toastMessage, setToastMessage] = useState(""); 
 
-    
+    useEffect(() => {
+        if (sessionStorage.getItem("Carbografite-token")) {
+          router.push("/home");
+      }
+    }, []);
+
     useEffect(() => {
     const registerSucess = router.query.registred;
 
